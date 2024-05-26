@@ -1,0 +1,13 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+.logo span {
+  color: #43a7d2;
+}

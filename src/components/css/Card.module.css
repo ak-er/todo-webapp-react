@@ -1,0 +1,75 @@
+.card {
+    padding: 2em;
+    background: #1b1a1a;
+    flex: 1 1 0;
+    position: relative;
+    max-width: calc(50% - 40px);
+    min-width: 20em;
+    width: 100%;
+}
+.card.active {
+    background-color: #4e7f1a2c;
+    color: #3c6f05fe;;
+}
+.cardTitle {
+    font-size: 2em;
+    font-weight: 600;
+}
+.cardBody {
+    color: #aaaaaa;
+    margin-bottom: 2em;
+}
+.card.active .cardBody {
+    color: #478406cd;;
+}
+.actionBtn {
+    bottom: 1em;
+    left: 2em;
+    display: flex;
+    gap: 0.5em;
+}
+.deleteBtn {
+    color: #0ef0c7;
+    cursor: pointer;
+    background: #242424;
+    padding: 0.5em 1em;
+    transition: 0.2s linear;
+}
+.deleteBtn:hover {
+    background: #3a3a3a;
+}
+.doneTask {
+    position: absolute;
+    right: 1em;
+    top: 2em;
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+}
+.btn {
+    color: #0ef0c7;
+    cursor: pointer;
+    background: #131313;
+    padding: 0.5em;
+    transition: 0.2s linear;
+    height: 2em;
+}
+.btn:hover {
+    background: #242424;
+}
+
+img {
+    height: inherit;
+    width: inherit;
+}
+@media (max-width: 850px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .card {
+        min-width: 200px;
+    }
+}

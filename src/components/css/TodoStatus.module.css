@@ -1,0 +1,25 @@
+.todoStatus {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #1b1a1a;
+    justify-content: center;
+    gap: 2em;
+    box-sizing: border-box;
+    padding: 1em;
+}
+.todoStatusText {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.todoStatusCount {
+    background: #213547;
+    font-size: 3rem;
+    border-radius: 50%;
+    letter-spacing: 0.05em;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    text-align: center;
+}

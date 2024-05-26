@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+@media (max-width: 850px) {
+    .taskStatus {
+        flex-wrap: wrap;
+    }
+}
